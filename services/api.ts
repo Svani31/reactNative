@@ -23,20 +23,5 @@ export const fetchMovies = async ({query}:{query:string}) => {
     return data.results
 }
 
-// export const fetchPopularitry = async () => {
-//     try{
-//         const respons = await fetch(`${TMDB_config.BASE_URL}discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc`,{
-//             method: "GET",
-//             headers:TMDB_config.header
-//         })
-//
-//         const data = await respons.json()
-//         return data.results
-//
-//     }catch(err){
-//         throw new Error
-//     }
-// }
-
 
 
